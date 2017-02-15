@@ -87,7 +87,8 @@ button{
     border-radius: 16px;
     text-align: center;
     text-decoration: none;
-    display: flex
+    display: flex;
+    flex-direction: column;
 }
 
 button:hover {

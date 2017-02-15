@@ -1,0 +1,155 @@
+
+body {
+  background: #fff;
+  margin: 1% 15%;
+  font-family: "Karla-Regular," Arial, sans-serif;
+  line-height: 120%
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    width: 100.6%
+}
+.perfect-paddles-logo li{
+    size: 0.5em;
+}
+
+li {
+    float: right;
+    font-family: "Karla-Regular", sans-serif;
+    font-size: 1em;   
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e2574c;
+}
+
+header{
+background: url(images/kayak-bkgd.jpg);
+background-size: cover;
+width:100%;
+height:500px;
+}
+
+header {
+margin: 0 auto;
+padding: 5px 0 5px 10px;
+}
+
+header p {
+    font-size: 1.3em;
+    line-height:100%;
+    color:#fff
+
+}
+header h2{
+    color:#fff;
+}
+header h1{
+    color:#fff;
+}
+
+h1{
+    text-align: center;
+    font-family: Pacifico,serif;
+    font-size: 5em;   
+}
+
+h2{
+    text-align: center;
+    font-family: Pacifico, serif;
+    font-size: 3em;
+    color: #646464
+}
+p{
+    text-align: center;
+    font-family: "Karla-Regular", sans-serif;
+    font-size: 1em;       
+}
+
+button{
+    background-color: #e2574c;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: flex
+}
+
+button:hover {
+    background-color: #b64036;
+    color: white;
+}
+
+.rentals h2{
+    text-align: center;
+    font-family: Pacifico, serif;
+    font-size: 3em;
+    color: #646464
+}
+
+.rentals p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+table {
+    font-family: "Karla-Regular", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    display:flex;
+    justify-content: flex-end
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+iframe{
+    width: 100%;
+    height: 50%
+}
+
+.about-images{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;    
+}
+.about-images img{
+width:32%;
+height:100%;
+}
+
+footer{
+    background:#000
+}
+p footer{
+   display: flex
+}
+
+
+
+
+
+
+
